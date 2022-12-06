@@ -23,6 +23,3 @@ Built a clustering model using K-means and Agglomerative clustering to identify 
 **Here are the final number of clusters obtained.**
 ![122783863-92546600-d2cf-11eb-888d-054214faf04e](https://user-images.githubusercontent.com/60965420/205822941-2be0c323-efed-4f88-bfd1-4a0385faed04.png)
 * We got optimal number of clusters=2 with ghelp of Elbow method, Silhouette score.
-* Cluster 0 has high recency rate but very low frequency and monetary. Cluster 0 conatins 2414 customers.
-* Cluster 1 has low recency rate but they are frequent buyers and spends very high money than other customers as mean monetary value is very high.Thus generates more revnue to the retail business.
-
