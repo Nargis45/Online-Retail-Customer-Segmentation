@@ -13,9 +13,16 @@ A transnational data set with transactions occurring between 1st December 2010 a
 * **UnitPrice:** Unit price. Numeric, Product price per unit in sterling. 
 * **CustomerID:** Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer. 
 * **Country:** Country name. Nominal, the name of the country where each customer resides.
+## Challenges:
+* Data cleaning
+* RFM analysis
+* Deciding optimal number of clusters
 ## Model Summary :
 Built a clustering model using K-means and Agglomerative clustering to identify major customer segments on transactions data for the UK based non-store online retail. Engineered new features to obtain new features such as RFM, busist days, time, month, RFMGroup, and RFMScore for getting more details about the customer. Obtained optimal number of clusters using Silhouette Analysis, Elbow Method and visual inspection of dendogram resulting from Hierarchical Clustering . Leveraged the visualization library t-SNE for multi-dimentional scaling to visualize and validate the inter-cluster separation and intra-cluster similarity.
 ## Conclusion :
 **Here are the final number of clusters obtained.**
 ![122783863-92546600-d2cf-11eb-888d-054214faf04e](https://user-images.githubusercontent.com/60965420/205822941-2be0c323-efed-4f88-bfd1-4a0385faed04.png)
+* We got optimal number of clusters=2 with ghelp of Elbow method, Silhouette score.
+* Cluster 0 has high recency rate but very low frequency and monetary. Cluster 0 conatins 2414 customers.
+* Cluster 1 has low recency rate but they are frequent buyers and spends very high money than other customers as mean monetary value is very high.Thus generates more revnue to the retail business.
 
