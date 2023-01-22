@@ -24,5 +24,5 @@ Built a clustering model using K-means and Agglomerative clustering to identify 
 ![122783863-92546600-d2cf-11eb-888d-054214faf04e](https://user-images.githubusercontent.com/60965420/205822941-2be0c323-efed-4f88-bfd1-4a0385faed04.png)
 * We got optimal number of clusters=2 with the help of Elbow method, Silhouette score.
 
-
+# **Certificate**
 ![09102084896263](https://user-images.githubusercontent.com/60965420/213905645-cc37aa84-814d-49d5-af02-bd483df280bd.png)
