@@ -23,3 +23,5 @@ Built a clustering model using K-means and Agglomerative clustering to identify 
 **Here are the final number of clusters obtained.**
 ![122783863-92546600-d2cf-11eb-888d-054214faf04e](https://user-images.githubusercontent.com/60965420/205822941-2be0c323-efed-4f88-bfd1-4a0385faed04.png)
 * We got optimal number of clusters=2 with the help of Elbow method, Silhouette score.
+
+![online_retail](https://user-images.githubusercontent.com/60965420/213905584-cf118956-6a52-4a0b-9917-0555be033f1d.png)
